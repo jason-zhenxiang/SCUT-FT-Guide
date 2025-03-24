@@ -1,0 +1,11 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Mark resource files as nontext
+*.png binary
+*.jpg binary
+*.ico binary
+*.svg binary
+*.pdf binary
+*.ppt binary
+*.pptx binary
