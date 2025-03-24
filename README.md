@@ -1,10 +1,5 @@
 # 华南理工未来技术学院课程攻略
 
-## 许可 | License
-本仓库中由贡献者编写的部分遵循协议[CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)国际许可协议，其余内容（包括但不限于课程资料/笔记/作业等）遵循原作者规定的许可，**严禁抄袭和不正当利用**
-
-若你认为本仓库的一些文件侵犯了您的权益，请向联系我们以彻底删除
-
 ## 前言 | Preface
 受[浙大相关项目](https://github.com/QSCTech/zju-icicles)等的启发，创立了本仓库，作为我校未来技术学院共享课程相关资源的平台
 
@@ -44,3 +39,8 @@ git clone --depth=1 https://github.com/GZIC-OpenFutureTech/OpenFutureTech
 - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
 - [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)
 - [哈工大（深圳）计算机专业课程攻略](https://github.com/HITSZ-OpenCS/HITSZ-OpenCS)
+
+## 许可 | License
+本仓库中由贡献者编写的部分遵循协议[CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)国际许可协议
+
+其余内容（包括但不限于课程资料/笔记/作业等）遵循原作者规定的许可，**严禁抄袭和不正当利用**，若你认为本仓库的一些文件侵犯了您的权益，请向联系我们以彻底删除
