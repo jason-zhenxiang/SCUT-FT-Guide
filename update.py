@@ -35,7 +35,7 @@ def GenerateFileList(courseGroup: str, course: str):
         if (level > 1):
             filelistTexts += '{}- {}\n'.format(indent, os.path.basename(root))
         # 文件的缩进量（比目录多一级）
-        subindent = ' ' * 4 * (level + 1)
+        subindent = ' ' * 4 * (level - 1)
         for f in files:
             # 排除README.md文件
             if f not in README_MD:
