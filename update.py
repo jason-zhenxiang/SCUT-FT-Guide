@@ -66,7 +66,7 @@ def GenerateMarkdown(courseGroup: str, course: str, filelistTexts: str, readmePa
             finalTexts = file.readlines() + finalTexts
 
     # 将课程文件夹标题添加在开头
-    titleText = '# {}\n\n'.format(course)
+    titleText = ['# {}\n\n'.format(course)]
     finalTexts = titleText + finalTexts
 
     # 将最终的内容写入到docs/{courseGroup}/{course}.md文件
