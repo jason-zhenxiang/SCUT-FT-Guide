@@ -19,7 +19,7 @@ def GenerateFileList(courseGroup: str, course: str):
     遍历指定课程组和课程目录，生成文件列表的 Markdown 格式内容
     """
     # 用于存储所有文件的Markdown格式内容
-    filelistTexts = '## 资源列表\n\n'
+    filelistTexts = '### 资源列表\n\n'
     # 用于存储README.md文件的路径
     readmePath = ''
     

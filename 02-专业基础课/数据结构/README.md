@@ -1,14 +1,10 @@
-## 一、课程介绍
-
-### 1.1 课程内容
+### 一、课程内容
 待补充
 
-### 1.2 考核方式
+### 二、考核方式
 待补充
 
-## 二、修读攻略
-
-### 2.1 学习思路
+### 三、修读攻略
 2023级[WhythZ](https://github.com/WhythZ):
 
 - 若是JYH老师的课，那么他的课件十分优秀，你完全可以不听课而按着课件自学，你可以在我的博客的<https://whythz.github.io/categories/>栏目下找到数据结构相关的部分笔记，或者可以在[此处](https://zhuanlan.zhihu.com/p/9546953287)按顺序索引到我的博客笔记（笔记里的配图都是课件中截取的，可见课件之优秀）
@@ -16,5 +12,5 @@
     - 博客的仓库地址：<https://github.com/WhythZ/whythz.github.io>
     - 代码的仓库地址：<https://github.com/WhythZ/DataStructure>
 
-### 2.2 注意事项
+### 四、注意事项
 待补充
