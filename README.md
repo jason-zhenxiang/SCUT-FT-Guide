@@ -12,7 +12,7 @@
 - 作业与答案、复习资料
 - 电子版教材、部分课件
 
-若要下载完整仓库，可点击本页面的`<>Code`->`Download ZIP`直接下载，或通过命令行克隆最新完整版本
+若要下载完整仓库，可点击本页面的`<>Code`->`Download ZIP`直接下载，如果你会使用Git，那么也可通过以下命令克隆最新完整版本
 
 ```
 git clone --depth=1 https://github.com/GZIC-OpenFutureTech/SCUT-FT-Guide

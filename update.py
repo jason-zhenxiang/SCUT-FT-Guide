@@ -19,7 +19,7 @@ def GenerateFileList(courseGroup: str, course: str):
     遍历指定课程组和课程目录，生成文件列表的 Markdown 格式内容
     """
     # 用于存储所有文件的Markdown格式内容
-    filelistTexts = '## 资源列表\n'
+    filelistTexts = '## 资源列表\n\n'
     # 用于存储README.md文件的路径
     readmePath = ''
     
@@ -27,12 +27,13 @@ def GenerateFileList(courseGroup: str, course: str):
     for root, dirs, files in os.walk(os.path.join(courseGroup, course)):
         # 排序文件名
         files.sort()
-        # 计算当前目录层级
-        level = root.replace(courseGroup, '').count(os.sep) - 1
-        # 根据层级决定缩进量
-        indent = ' ' * 4 * level
-        # 添加当前目录到文件列表
-        filelistTexts += '{}- {}\n'.format(indent, os.path.basename(root))
+        # 计算当前目录层级，根目录为1
+        level = root.replace(courseGroup, '').count(os.sep)
+        # 根据层级决定缩进量，根目录不个缩进，根目录下的文件夹0个缩进
+        indent = ' ' * 4 * (level - 2)
+        # 添加当前目录名到文件列表，跳过根目录
+        if (level > 1):
+            filelistTexts += '{}- {}\n'.format(indent, os.path.basename(root))
         # 文件的缩进量（比目录多一级）
         subindent = ' ' * 4 * (level + 1)
         for f in files:
