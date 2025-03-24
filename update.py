@@ -19,7 +19,7 @@ def GenerateFileList(courseGroup: str, course: str):
     遍历指定课程组和课程目录，生成文件列表的 Markdown 格式内容
     """
     # 用于存储所有文件的Markdown格式内容
-    filelistTexts = '### 资源列表\n\n'
+    filelistTexts = '## 资源列表\n'
     # 用于存储README.md文件的路径
     readmePath = ''
     
@@ -54,7 +54,7 @@ def GenerateFileList(courseGroup: str, course: str):
 
 def GenerateMarkdown(courseGroup: str, course: str, filelistTexts: str, readmePath: str):
     """
-    生成并保存课程的Markdown文件，包含文件列表和README.md内容
+    生成并保存课程的Markdown文件，包含课程标题、README.md、文件资源列表
     """
     # 组合最终的文本内容，先添加文件列表，然后如果有README.md，添加它
     finalTexts = ['\n\n', filelistTexts]
@@ -64,6 +64,10 @@ def GenerateMarkdown(courseGroup: str, course: str, filelistTexts: str, readmePa
         with open(readmePath, 'r') as file:
             # 将README.md的内容添加到文件列表前
             finalTexts = file.readlines() + finalTexts
+
+    # 将课程文件夹标题添加在开头
+    titleText = '# {}\n\n'.format(course)
+    finalTexts = titleText + finalTexts
 
     # 将最终的内容写入到docs/{courseGroup}/{course}.md文件
     os.makedirs(f'docs/{courseGroup}', exist_ok=True)
