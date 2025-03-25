@@ -9,9 +9,9 @@ README_MD = ['README.md']
 # 支持的文本文件扩展名，文本文件会生成文本链接
 TXT_EXTS = ['md', 'txt']
 # GitHub上文本文件的访问URL前缀
-TXT_URL_PREFIX = 'https://github.com/GZIC-OpenFutureTech/SCUT-FT-Guide/blob/master/'
+TXT_URL_PREFIX = 'https://github.com/OpenFuTech/SCUT-FT-Guide/blob/master/'
 # GitHub上二进制文件的访问URL前缀
-BIN_URL_PREFIX = 'https://github.com/GZIC-OpenFutureTech/SCUT-FT-Guide/raw/master/'
+BIN_URL_PREFIX = 'https://github.com/OpenFuTech/SCUT-FT-Guide/raw/master/'
 
 
 def GenerateFileList(courseGroup: str, course: str):
