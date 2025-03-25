@@ -15,7 +15,7 @@
 
 若只下载单个文件或文件夹，复制目标文件夹网址粘贴入[DownGit](https://minhaskamal.github.io/DownGit/#/home)页面，点击下载即可得到目标目录压缩文件，也可参考[d.serctl.com](https://d.serctl.com/)或[Chrome插件](https://chrome.google.com/webstore/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn)等方法
 
-若要下载完整仓库，可点击本页面的`<>Code`->`Download ZIP`直接下载，如果你会使用Git，那么也可通过以下命令克隆最新完整版本
+若要下载完整仓库，可点击[本页面](https://github.com/GZIC-OpenFutureTech/SCUT-FT-Guide)的`<>Code`下的`Download ZIP`按钮直接下载，如果你会使用Git，那么也可通过以下命令克隆最新完整版本
 
 ```
 git clone --depth=1 https://github.com/GZIC-OpenFutureTech/SCUT-FT-Guide
