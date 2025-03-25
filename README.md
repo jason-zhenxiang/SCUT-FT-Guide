@@ -1,7 +1,7 @@
 # 华南理工未来技术学院课程攻略
 
 ## 前言
-受[浙大相关项目](https://github.com/QSCTech/zju-icicles)等启发，创立本仓库以共享和交流华工未院课程相关资源，[点此进入网页版攻略](https://gzic-openfuturetech.github.io/SCUT-FT-Guide/)
+受[浙大相关项目](https://github.com/QSCTech/zju-icicles)等启发，创立本仓库以共享和交流华工未院课程相关资源，[点此进入攻略网页版](https://gzic-openfuturetech.github.io/SCUT-FT-Guide/)，站点搭建流程参考：[使用MkDocs和Github快速搭建网页文档库](https://whythz.github.io/posts/%E4%BD%BF%E7%94%A8MkDocs%E5%92%8CGithub%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E7%BD%91%E9%A1%B5%E6%96%87%E6%A1%A3%E5%BA%93/)
 
 >"我希望能够将这些隐晦的、不确定的、口口相传的资料和经验，变为公开的、易于获取的和大家能够共同完善、积累的共享资料；我希望只要是前人走过的弯路，后人就不必再走"
 
