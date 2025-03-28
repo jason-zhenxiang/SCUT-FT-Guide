@@ -29,7 +29,7 @@ git clone --depth=1 https://github.com/OpenFuTech/SCUT-FT-Guide
 - 通过提出Issues提出对本攻略的疑问、建议等
 
 ## 许可
-本仓库中由贡献者编写的部分遵循协议[CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)国际许可协议，其余所有内容遵循原作者规定的许可，**严禁抄袭和不正当利用**，若你认为本仓库的一些文件侵犯了您的权益，请向联系我们以彻底删除
+本仓库中由贡献者编写的部分遵循协议[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)国际许可协议，其余所有内容遵循原作者规定的许可，**严禁抄袭和不正当利用**，若你认为本仓库的一些文件侵犯了您的权益，请向联系我们以彻底删除
 
 ## 致谢
 - 华南理工大学未来技术学院人工智能协会
